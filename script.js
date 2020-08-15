@@ -5,7 +5,7 @@ window.onload = function () {
 
 
 function loadData() {
-    let url = "/sorted.txt";
+    let url = "sorted.txt";
     fetch(url)
         .then(response => response.json())
         .then(data => extractData(data))
